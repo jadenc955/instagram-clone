@@ -1,0 +1,22 @@
+a.nav-link {
+    color: grey;
+    padding-top: 20px;
+}
+
+a.nav-link:hover {
+    color: black;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+#divider {
+    margin: 0px;
+}
+
+
+
+@media (min-width: 768px) {
+    #navbar {
+        height: 100vh;
+    }
+}
