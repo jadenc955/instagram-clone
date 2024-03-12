@@ -13,6 +13,7 @@ export default function IconButton({ isTop, isBottom, className, onClick, src })
     <Button variant={margin} style={{ marginBottom: "7px"}} onClick={onClick}>
       <i className={className} style={{ fontSize: "24px" }}></i>
       {src && <Image src={src} roundedCircle/>}
+      {/* The image should be sized to be around 40px X 40px */}
     </Button>
   );
 }

@@ -31,7 +31,7 @@ export default function App() {
           <IconButton className="bi bi-chat" />
           <IconButton className="bi bi-heart" />
           <IconButton className="bi bi-plus-square" onClick={openModal} />
-          <IconButton src="/src/assets/Profile picturev3.PNG" />
+          <IconButton className="bi bi-person-circle" />
           <IconButton className="bi bi-list" isBottom />
         </Col>
         <Col md={11}>
